@@ -1,0 +1,78 @@
+/*--------------Define Global Css--------------*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/*--------------Define Default Global Font Size--------------*/
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+/*how to get underline to disappear or show*/
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/*--------------Define Global Helper Style--------------*/
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .background-color {
+    background-color: #f3f3f3;
+  }
+
+ 

@@ -75,4 +75,16 @@ td, th {
     background-color: #f3f3f3;
   }
 
- 
+  .footer-container {
+    background-color: #C3C8B9;
+    padding: 29px;
+    text-align: center;
+}
+
+.footer-container a:hover {
+    text-decoration: none;
+}
+
+.footer-img {
+    width: 36px;
+}

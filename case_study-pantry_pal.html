@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--My font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Elizabeth Wolner Bootstrap Portfolio Site</title>
+</head>
+
+<body>
+    <!-----------------------------------------Navigation------------------------------------->
+    <nav class="container-fluid background-white sticky-top pb-3">
+        <div class="row text-center">
+            <div class="col-d-none col-md-5 col-lg-8">
+            </div>
+            <div class="col-12 col-md-7 col-lg-4">
+                <div class="row mt-4 mb-2">
+                    <div class="col-3 col-lg-3 link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="col-3 col-md-3 col-lg-2 link">
+                        <a href="about.html">About</a>
+                    </div>
+                    <div class="col-3 col-lg-3 link">
+                        <a href="Resume.pdf" target="blank">Resume</a>
+                    </div>
+                    <div class="col-3 col-md-3 col-lg-2 link">
+                        <a href="mailto:elizabeth.wolner@gmail.com">Contact</a>
+                    </div>
+                    <div class="col-d-none col-md-d-none col-lg-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!----------------------------------Introduction Section----------------------------------------->
+    <div class="container mt-4 px-5 py-4">
+        <div class="row">
+            <div class="col-12 mt-3">
+                <h1 class="text-center">Pantry Pal Mobile App Design</h1>
+                <p class="mt-4">We discovered that people don't like to waste food, and they sometimes lose track of
+                    what they have &
+                    need.
+                    We believe that there is an opportunity to help our users upgrade their paper grocery lists into a
+                    digitized version that gives detailed information on items that they buy.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------- Research Section------------------------------------->
+    <!-- Grocery Planning Objectives-->
+    <div class="container mt-4 px-5 py-4">
+        <div class="row align-items-center">
+            <div class="col-12 text-center">
+                <h2>Research</h2>
+            </div>
+            <div class="col-12">
+                <p class="mb-4">To start off, we created a user interview consisting of 17 questions. We interviewed 5
+                    users and were focusing on 2 key objectives. The below shows the objectives and some key quotes from
+                    each:
+                </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p>
+                    <strong>Objective 1 -</strong> Understand the grocery planning process
+                    <br>
+                    <br>
+                    “I tend to shop as needed. I keep a list. I [go] once or twice or twice a week, I guess. Just to
+                    pick up
+                    fresh. I pick up meats and those things that keep longer and don't buy that every time because I'm
+                    able
+                    to
+                    buy some and then freeze some.”
+                    <br>
+                    <br>
+                    “I try to use what's left in my fridge or pantry first. And then if I don't have anything then I
+                    just
+                    try to
+                    find a really cool recipe”
+                    <br>
+                    <br>
+                    <strong>Objective 2 -</strong> Understand the user’s approach to food organization
+                    <br>
+                    <br>
+                    “So I [try] to keep the open items in front of on top of the closed items. Sometimes that even
+                    doesn't
+                    work.”
+                    <br>
+                    <br>
+                    “The berries mold at times. I'm sad to see that.”
+                    <br>
+                    <br>
+                    Next, we put out a survey which yielded 45 responses. The two most insightful responses were the
+                    following:
+                    <br>
+                    <br>
+                </p>
+            </div>
+            <!--Grocery Prep and Plan Data-->
+            <div class="col-12 col-lg-6">
+                <p>1. What type of grocery prep do you do?
+                </p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199328209-e0c7a8bf-d18c-4924-8888-21720d5324cc.png"
+                    alt="Pie chart showing that 51% of people use a small list then grab and go when shopping, 20% use a full meal planning list, and 13.3% plan and shop specific stores for specific items.">
+
+                <p>2. Do you use anything to help you grocery plan?
+                </p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199329070-60ea3218-8a06-4efd-baa4-3e507c35ac76.png"
+                    alt="Pie chart showing that 35.6% of people use a paper list, 28.9% use a list on their phone using notes or excel, and 17.8% are spontaneous shoppers/have a list in their heads.">
+            </div>
+        </div>
+    </div>
+    <!-- User Persona-->
+    <div class="container mt-4 px-5 ">
+        <div class="row align-items-center py-4">
+            <div class="col-12 col-lg-6">
+                <h3 class="bold">User Persona</h3>
+                <br>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199330095-b4f590c2-b9fa-4e78-b5d5-08933022d7cf.png"
+                    alt="Women smiles while looking at her child in her arms">
+
+                <p><strong>Name: </strong> Britney</p>
+                <p><strong>Age: </strong> 32</p>
+                <p><strong>Occupation: </strong> Graphic Designer</p>
+                <p><strong>Relationship Status: </strong> Married</p>
+                <p><strong>Family: </strong> 2 kids</p>
+
+            </div>
+            <div class="col-12 col-lg-6">
+                <p>Using the data we collected, we created a user persona which helped us target the key pains and gains
+                    to help us inform our solution.
+                    <br>
+                    <br>
+                    <strong>Gains:</strong>
+                </p>
+                <ul class="normal">
+                    <li>Waste less food</li>
+                    <li>Create a master list</li>
+                    <li>Visibility to which products are running low</li>
+                    <li>Share list with household</li>
+                    <il>Organize groceries by category/department</il>
+                </ul>
+                <p><strong>Pains:</strong></p>
+                <ul class="normal">
+                    <li>Does not like multiple trips to the store</li>
+                    <li>Stressful not knowing what ingredients are on hand</li>
+                    <li>Food gets hidden in fridge</li>
+                    <li>Grocery shopping can be overwhelming</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------------Definition & Ideation Section------------------------------>
+    <div class="container mt-4 px-5 py-4 background-color">
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <h2>Definition &amp; Ideation</h2>
+            </div>
+            <!--Feature Prioritization-->
+            <div class="col-12">
+                <h3>Feature Prioritization</h3>
+                <ul class="normal">
+                    <li>Create Shopping List
+                    </li>
+                    <li>Expiration Date Alerts
+
+                    </li>
+                    <li>Shareable app/list with Household
+                    </li>
+                    <li>Live update/alert when something is added by household
+                    </li>
+                </ul>
+            </div>
+            <!--Journey Map-->
+            <div class="col-12 mt-5">
+                <h3>Journey Map</h3>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199330716-071b98d2-62e9-402b-ac9b-4700f12ea691.jpg"
+                    alt="A graph with emojis shows the user's journey: 1. surprised, 2. concerned, 3. satisfied, 4. annoyed, 5. relieved, 6. happy, 7. delighted and ready to relax">
+                <br>
+                <br>
+                <ol class="normal">
+                    <li>Notification -
+                        Milk Expired!
+                    </li>
+                    <li>Did not purchase with weekly groceries
+                    </li>
+                    <li>PantryPal can automatically add to new list
+                    </li>
+                    <li>Husband adds additional item to list while at store
+                    </li>
+                    <li>Able to grab both items before check out
+                    </li>
+                    <li>Still gets home on time with ingredients for dinner
+                    </li>
+                    <li>PantryPal’s features saved the evening!
+                    </li>
+                </ol>
+            </div>
+            <!--Story Board-->
+            <div class="col-12 mt-5">
+                <h3>Storyboard</h3>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>1. Milk is expired, oh no!</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199331210-b23a2a88-5a46-4fd9-a2e3-e4430b915828.jpg"
+                    alt="Britney sits at her desk with a client looking at her pantry pal app in surprise">
+                <p> At a meeting with a client, Britney gets a notification that her milk is
+                    expired & has the horrible realization that she forgot to buy milk during her weekly trip!
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>2. PantryPal to the rescue!</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199331428-c4babf8f-f9ea-4bb8-ae0b-01d5b2da4f08.jpg"
+                    alt="Up close view of Britney's phone showing the app prompting her to add milk to her list">
+                <p> PantryPal asks if she'd like to add Milk to her grocery list, and Britney
+                    accepts.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>3. Ready to go.</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199331535-9258a93c-177e-4720-808b-d1d7aa57c988.jpg"
+                    alt="Britney holding milk in the grocery store">
+                <p> She gets to the store to grab the milk and is ready to check out.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>4. A surprise item is added!</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199331653-1a361ed1-52a9-4ce5-a1b4-754f13532c94.jpg"
+                    alt="Britney looks at her phone and gets a notification that her husband added butter to the list">
+                <p> She gets a notification that her husband also added butter to the list and is
+                    relieved she can grab it before she checked out.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>5. Home on time!</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199332097-dae9a0a8-145f-4cd4-b2e7-af6fe4239f7e.jpg"
+                    alt="Britney stands at her kitchen counter holding a spoon with dinner on the table">
+                <p> Britney is able to get home with dinner on the table before 7:00.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3 text-center">
+                <p><strong>6. PantryPal is a success!</strong></p>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199332235-0a28a829-bb25-46ed-a3a9-372b57e30380.jpg"
+                    alt="A clock shows 7:30, Britney stands outside her kid's room holding a glass of wine">
+                <p> The kids get to bed on time and Britney is thrilled that PantryPal saved
+                    their evening!
+            </div>
+
+        </div>
+    </div>
+
+    <!----------------------------------Prototyping Section-------------------------------------->
+
+    <div class="container mt-4 px-5 py-4">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">Prototyping</h2>
+                <h3 class="side-margin">Initial User Flow</h3>
+                <br>
+                <br>
+                <div class="landing-container_img-full"><img
+                        src="https://user-images.githubusercontent.com/104800887/199332433-094471ba-6a27-459c-ada3-e7bbcc7c2698.jpg"
+                        alt="Boxes and arrows show the flow of the user through the app. For example, the user adding items to their pantry or grocery list.">
+                </div>
+                <!--Sketches & Group Collab-->
+                <h3 class="side-margin">Sketches &amp; Group Collaboration</h3>
+                <br>
+                <br>
+                <div class="landing-container_img-full"><img
+                        src="https://user-images.githubusercontent.com/104800887/199332699-59ff8fc8-2abe-4338-ad0b-c83bada76d32.jpg"
+                        alt="Sketches and early versions of the prototype show the sign up/sign in screen, households, the pantry log, and how to add chicken breast to the list">
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+<!-----------------------------------------Testing & Iterating------------------------------------->
+    <div class="container mt-4 px-5 py-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="text-center">Testing &amp; Iterating</h2>
+<!--Testing Plan-->
+                <h3>Testing Plan:</h3>
+                <p><strong>Objective</strong>
+                    <br>
+                    1. Can users successfully add items to their grocery list and how easily?
+                    <br>
+                    2. Do users find the expiration feature valuable?
+                    <br>
+                    3. Do users find the share feature valuable?
+                </p>
+            </div>
+
+            <div class="col-12 col-lg-4 text-center mt-5">
+                <p><strong>User 1</strong>
+                    <br>
+                    <br>
+                    “Really like it - the expiration feature is cool - like the search opt - like
+                    very clean layout, like that it’s a running list”
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-5">
+                <p><strong>User 2</strong>
+                    <br>
+                    <br>
+                    “It’s a good thing. You have to spend time uploading the items. But after that
+                    it’s pretty simple to navigate. Likes the expiration date feature.”
+                </p>
+            </div>
+            <div class="col-12 col-lg-4 text-center mt-5">
+                <p><strong>User 3</strong>
+                    <br>
+                    <br>
+                    “ It’s good - is there a way to make your own categories? Or is it built-in
+                    ones.”
+                </p>
+            </div>
+            <!--Take Aways & Prototype Itereation-->
+            <div class="col-12 mt-5">
+                <h3>Take Aways &amp; Prototype Iteration:</h3>
+                <p>Overall, users thought the prototype was straightforward and easy to use. Users
+                    felt that "List" was
+                    ambiguous, so we switched the wording to "Grocery List"</p>
+                <br>
+                <br>
+                <br>
+                <!--Updated User Flow-->
+                <h3>Updated User Flow:</h3>
+
+                <p>Grocery List Interactions:</p>
+                <br>
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199333155-f6f73187-1cd8-4481-8439-eb89dc4ae46c.jpg"
+                    alt="Boxes and arrows show the user's interaction with the grocery list feature. Households to Grocery list feeds into to adding an item to the list which feeds into crossing off items on the list which feeds into adding items to the pantry which feeds into adding expiration dates">
+                <br>
+                <!--Final Digital Prototype-->
+                <h3>Final Digital Prototype:</h3>
+
+                <br>
+
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/104800887/199333441-9b896032-4f28-45a5-9ebb-d680413e5184.jpg"
+                    alt="The final prototype screens for the grocery list are shown in order: 1. Add to list, 2. Logging chicken breast, 3. Grocery list, 4. Completed Grocery list, 5. Adding grocery items to the pantry, 6. Pantry">
+
+            </div>
+        </div>
+    </div>
+<!-------------------------------------------------------Final Thoughts-------------------------------->
+    <div class="container mt-4 px-5 py-4">
+        <div class="row mt-4">
+            <div class="col-12">
+                <h2 class="text-center">Final Thoughts</h2>
+            </div>
+            <p>1. Focus on the Key Features
+                <br>
+                2. Collaboration and Compromise is Key
+                <br>
+                3. Brainstorming set us up for Success
+            </p>
+        </div>
+    </div>
+
+
+    <!----------------------------------------------------Footer------------------------------------------>
+    <footer class="container-fluid footer-container mt-4 px-5 py-4 text-center">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="margin-bottom_five footer-h2">Let's get in touch!</h2>
+                <p class="footer-copy">There are no bounds to what we can achieve by working together.
+                </p>
+            </div>
+
+            <div class="col-12 mt-3">
+                <a href="https://www.linkedin.com/in/elizabeth-wolner-6ba66255/" target="blank"> <img
+                        class="footer-img my-2 mx-2"
+                        src="https://user-images.githubusercontent.com/104800887/201577304-1c852812-d254-4224-a8d7-e3a8348845a5.png"
+                        alt="black LinkedIn logo">
+                </a>
+
+                <a href="mailto:elizabeth.wolner@gmail.com" target="blank"><img class="footer-img my-2 mx-2"
+                        src="https://user-images.githubusercontent.com/104800887/201577302-108af0ca-dc13-4712-b4d4-e3f7edd1d9f4.png"
+                        alt="black outline envelope">
+                </a>
+
+
+            </div>
+    </footer>
+</body>
+
+</html>

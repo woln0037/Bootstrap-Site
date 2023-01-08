@@ -103,8 +103,40 @@ td, th {
     text-decoration: none;
 }
 
-.footer-img {
+.thumbnail1 {
     width: 36px;
+}
+
+.thumbnail1:hover .picture1 {
+    width: 36px;
+    display: none;
+}
+.thumbnail1:hover .picture2 {
+    width: 36px;
+    display: block;
+}
+
+.picture2 {
+    width: 36px;
+    display: none;
+}
+
+.thumbnail2 {
+    width: 36px;
+}
+
+.thumbnail2:hover .picture3 {
+    width: 36px;
+    display: none;
+}
+.thumbnail2:hover .picture4 {
+    width: 36px;
+    display: block;
+}
+
+.picture4 {
+    width: 36px;
+    display: none;
 }
 
 .button {

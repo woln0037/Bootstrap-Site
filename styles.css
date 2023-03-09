@@ -65,6 +65,7 @@ a:hover {
     font-weight: 700;
     text-decoration: underline;
 }
+
 /*--------------Define Global Helper Style--------------*/
 
 .hero-container {
@@ -79,22 +80,23 @@ a:hover {
     font-weight: normal;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000;
     text-align: left;
     padding: 8px;
-  }
+}
 
-  .background-color {
+.background-color {
     background-color: #f3f3f3;
-  }
+}
 
 
-  .card-color:hover {
+.card-color:hover {
     background-color: #f3f3f3;
-  }
+}
 
-  .footer-container {
+.footer-container {
     background-color: #C3C8B9;
     text-align: center;
 }
@@ -111,6 +113,7 @@ td, th {
     width: 36px;
     display: none;
 }
+
 .thumbnail1:hover .picture2 {
     width: 36px;
     display: block;
@@ -129,6 +132,7 @@ td, th {
     width: 36px;
     display: none;
 }
+
 .thumbnail2:hover .picture4 {
     width: 36px;
     display: block;
@@ -155,35 +159,69 @@ td, th {
     background-color: #fff;
 }
 
+.wanderlog {
+    background-color: #E4644A;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.tripadvisor {
+    background-color: #6FDCA5;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+
+.airbnb {
+    background-color: #EB4C60;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.expedia {
+    background-color: #F7CC63;
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
     h1 {
         font-size: 32px;
     }
-    
+
     h2 {
         font-size: 24px;
 
     }
-    
+
     h3 {
         font-size: 16px;
 
     }
-    
+
     h4 {
         font-size: 14px;
 
     }
-    
+
     h5 {
         font-size: 14px;
     }
-    
+
     p {
         font-size: 14px;
 
     }
+
+    table {
+        font-size: 14px;
+
+    }
+
     a {
         font-size: 14px;
         font-weight: 400;
@@ -191,39 +229,44 @@ td, th {
         text-decoration: none;
     }
 }
- 
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     h1 {
         font-size: 40px;
     }
-    
+
     h2 {
         font-size: 32px;
 
     }
-    
+
     h3 {
         font-size: 24px;
 
     }
-    
+
     h4 {
         font-size: 16px;
 
     }
-    
+
     h5 {
         font-size: 16px;
     }
-    
+
     p {
         font-size: 16px;
 
     }
+
+    table {
+        font-size: 16px;
+
+    }
+
     a {
         font-size: 16px;
- 
+
     }
 }
- 
